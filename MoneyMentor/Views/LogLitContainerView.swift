@@ -22,7 +22,7 @@ struct LogLitContainerView: View {
             #endif
         }
         .sheet(isPresented: $vm.isLogFormPresented, content: {
-            Text("Todo formField")
+            LogFormView(vm: .init())
         })
         .toolbar(content: {
             ToolbarItem {

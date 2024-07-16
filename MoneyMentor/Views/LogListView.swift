@@ -14,10 +14,11 @@ struct LogListView: View {
     var body: some View {
         listView
             .listStyle(.plain)
+            
             .sheet(item: $vm.logToEdit) {
                 vm.logToEdit = nil
             } content: { log in
-                Text("log form view")
+                LogFormView(vm: .init(logToEdit: log))
             }
             .overlay{
               if  logs.isEmpty {

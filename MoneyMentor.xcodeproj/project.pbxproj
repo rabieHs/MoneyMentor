@@ -29,6 +29,7 @@
 		E8F5314E2C46CC620051D0D6 /* LogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F5314D2C46CC620051D0D6 /* LogListView.swift */; };
 		E8F531502C46DAEA0051D0D6 /* LogLitContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F5314F2C46DAEA0051D0D6 /* LogLitContainerView.swift */; };
 		E8F531522C46E7840051D0D6 /* LogFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F531512C46E7840051D0D6 /* LogFormViewModel.swift */; };
+		E8F531542C4714640051D0D6 /* LogFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F531532C4714640051D0D6 /* LogFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		E8F5314D2C46CC620051D0D6 /* LogListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListView.swift; sourceTree = "<group>"; };
 		E8F5314F2C46DAEA0051D0D6 /* LogLitContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLitContainerView.swift; sourceTree = "<group>"; };
 		E8F531512C46E7840051D0D6 /* LogFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFormViewModel.swift; sourceTree = "<group>"; };
+		E8F531532C4714640051D0D6 /* LogFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 				E8F5314B2C46C5A50051D0D6 /* LogItemView.swift */,
 				E8F5314D2C46CC620051D0D6 /* LogListView.swift */,
 				E8F5314F2C46DAEA0051D0D6 /* LogLitContainerView.swift */,
+				E8F531532C4714640051D0D6 /* LogFormView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				E8F5313B2C46A3BE0051D0D6 /* Extensions.swift in Sources */,
 				E8F531392C46A2F60051D0D6 /* Utils.swift in Sources */,
 				E8F531172C4697BA0051D0D6 /* MoneyMentorApp.swift in Sources */,
+				E8F531542C4714640051D0D6 /* LogFormView.swift in Sources */,
 				E8F5314A2C46C4C00051D0D6 /* CategoryImageView.swift in Sources */,
 				E8F531322C46A0E50051D0D6 /* Category.swift in Sources */,
 				E8F531362C46A2540051D0D6 /* Sort.swift in Sources */,

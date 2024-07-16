@@ -16,7 +16,7 @@ class LogFormViewModel {
     var category = Category.utilities
     var date = Date()
     
-    var isSaeButtonDesabled: Bool {
+    var isSaveButtonDesabled: Bool {
         name.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
     }
     let numberFormatter : NumberFormatter =  {
@@ -40,6 +40,7 @@ class LogFormViewModel {
             
             
         }
+    }
         
         func save(){
             var log: ExpenseLog
@@ -64,6 +65,6 @@ class LogFormViewModel {
         func delete(log: ExpenseLog){
             db.delete(log: log)
         }
-    }
+    
     
 }
